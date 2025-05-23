@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Digital Clock</title>
+  
+
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&display=swap" rel="stylesheet" />
+
+  
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+     <h1 class="heading">Pixelated Digital Clock</h1>
+
+  <div class="clock" aria-live="polite" aria-atomic="true">
+    <div class="time-segment" id="hours">
+      <div class="digit"><span>0</span></div>
+      <div class="digit"><span>0</span></div>
+    </div>
+    <div class="colon">:</div>
+    <div class="time-segment" id="minutes">
+      <div class="digit"><span>0</span></div>
+      <div class="digit"><span>0</span></div>
+    </div>
+    <div class="colon">:</div>
+    <div class="time-segment" id="seconds">
+      <div class="digit"><span>0</span></div>
+      <div class="digit"><span>0</span></div>
+    </div>
+  </div>
+
+  <div class="date-container" id="dateDisplay">
+    Friday - May 23, 2025
+  </div>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
